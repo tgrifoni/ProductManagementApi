@@ -5,6 +5,6 @@
         NotAuthenticated = 0,
         UserNotFound = 1,
         InvalidCredentials = 2,
-        Authenticated = 4
+        Authenticated = 3
     }
 }

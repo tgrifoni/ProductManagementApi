@@ -33,7 +33,7 @@ namespace PM.Api.Controllers.v1
             {
                 var response = await _mediator.Send(new AuthenticationQuery(username, password));
 
-                return Ok(response.Token);
+                return Ok(response);
             }
             catch (Exception ex)
             {
